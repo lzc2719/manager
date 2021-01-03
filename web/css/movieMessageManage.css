@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 800px;
+    height: 680px;
+    position: relative;
+}
+.container .content{
+    width: 800px;
+    height: 680px;
+    position: relative;
+}
+.container .content>div{
+    display: inline-block;
+}
+.container .content>.movie-add{
+    width: 200px;
+    height: 670px;
+    position: absolute;
+    left: 50px;
+    border: 2px solid black;
+}
+.container .content>.movie-add li{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container .content>div li>.text-area-size{
+    width: 150px;
+    height: 30px;
+}
+.container .content>.movie-update{
+    width: 200px;
+    height: 670px;
+    position: absolute;
+    left: 300px;
+    border: 2px solid black;
+}
+.container .content>.movie-update li{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container .content>.movie-delete{
+    width: 200px;
+    height: 670px;
+    position: absolute;
+    left: 550px;
+    border: 2px solid black;
+}
+.container .content>.movie-delete li{
+    margin-top: 20px;
+    margin-left: 20px;
+}

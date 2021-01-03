@@ -1,0 +1,45 @@
+
+.container{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-image: url(../imgs/background-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+
+.container .content{
+    width: 650px;
+    height: 420px;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.container .content ul>li{
+    width: 470px;
+    height: 55px;
+    position: relative;
+    margin: 20px auto;
+}
+.container .content ul>li .account-text:hover{
+    background-color: whitesmoke;
+}
+.container .content ul>li .password-text:hover{
+    background-color: whitesmoke;
+}
+.container .content ul>li #account-text:hover{
+    background-color: whitesmoke;
+}
+.container .content ul>li .username-text:hover{
+    background-color: whitesmoke;
+}
+.container .content ul>li input{
+    width: 360px;
+    height: 45px;
+    position: relative;
+}

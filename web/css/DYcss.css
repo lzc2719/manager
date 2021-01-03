@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.container .nav{
+    width: 100%;
+    height: 255px;
+    border: 1px solid black;
+    background-color: #44444F;
+    position: fixed;
+    top: 0px;
+    z-index: 99999;
+    padding-top: 10px;
+}
+.container .nav .menu a{
+    color: #BBBBBB;
+    font-size: 17px;
+}
+.container .nav .menu a:hover{
+    color: red;
+}
+.container .nav .menu>div{
+    margin: 10px;
+}
+.container .nav .menu .menu-list-1{
+    width: 1100px;
+    height: 40px;
+    /*border: 2px solid black;*/
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.container .nav .menu .menu-list-1 ul>li{
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.container .nav .menu .menu-list-2{
+    width: 1100px;
+    height: 40px;
+    /*border: 2px solid black;*/
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.container .nav .menu .menu-list-2 ul>li{
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.container .nav .menu .menu-list-3{
+    width: 1100px;
+    height: 40px;
+    /*border: 2px solid black;*/
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.container .nav .menu .menu-list-3 ul>li{
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.container .nav .menu .menu-list-4{
+    width: 1100px;
+    height: 80px;
+    /*border: 2px solid black;*/
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.container .nav .menu .menu-list-4 .search-box{
+    width: 488px;
+    height: 44px;
+    font-size: 12px;
+    position: absolute;
+    left: 0px;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 10px;
+}
+.container .nav .menu .menu-list-4 .search-box:hover{
+    background-color: lavenderblush;
+}
+.container .nav .menu .menu-list-4 .search-button{
+    width: 90px;
+    height: 46px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-left: 0px solid transparent;
+    background-color: orange;
+    position: absolute;
+    left: 400px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.container .content{
+    width: 100%;
+    position: relative;
+    background-color: #232325;
+    /*border: 3px solid black;*/
+}
+.container .content .display-area{
+    width: 100%;
+    height: 100%;
+    /*border: 3px solid black;*/
+    position: relative;
+    top: 270px;
+}
+.container .content .display-area .movie-list{
+    width: 1160px;
+    height: 410px;
+    background-color: #545461;
+    /*border: 2px solid black;*/
+    position: relative;
+    left: 20px;
+    margin-top: 30px;
+}
+.container .content .display-area .movie-list>div{
+    display: inline-block;
+}
+.container .content .display-area .movie-list .movie-list-left{
+    width: 270px;
+    height: 365px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    text-align: center;
+    /*border: 3px solid black;*/
+}
+.container .content .display-area .movie-list .movie-list-right{
+    width: 830px;
+    height: 385px;
+    color: #BBBBBB;
+    position: absolute;
+    top: 15px;
+    left: 320px;
+    /*border: 3px solid black;*/
+}
+.container .content .display-area .movie-list .movie-list-right .right-top{
+
+}
+.container .content .display-area .movie-list .movie-list-right .right-top>div{
+    display: inline-block;
+}
+.container .content .display-area .movie-list .movie-list-right .right-top-left{
+    width: 410px;
+    height: 210px;
+    /*border: 2px solid black;*/
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.container .content .display-area .movie-list .movie-list-right .right-top-right{
+    width: 375px;
+    height: 215px;
+    /*border: 2px solid black;*/
+    position: absolute;
+    left: 435px;
+    top: 5px;
+}
+.container .content .display-area .movie-list .movie-list-right .right-top-right .movie-score-posi{
+    width: 52px;
+    height: 30px;
+    position: absolute;
+    left: 318px;
+    /*border: 2px solid black;*/
+}
+.container .content .display-area .movie-list .movie-list-right .right-top-right .score-area{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 75px;
+    background-color: transparent;
+    /*border: 1px solid #BBBBBB;*/
+}
+.container .content .display-area .movie-list .movie-list-right .right-top-right .score-area .score-text{
+    width: 60px;
+    height: 30px;
+    color: #BBBBBB;
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid #BBBBBB;
+}
+.container .content .display-area .movie-list .movie-list-right .right-top-right .score-area .score-text:hover{
+    border: 1px solid red;
+}
+.container .content .display-area .movie-list .movie-list-right .right-top-right .score-area .score-submit{
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    left: 70px;
+    font-size: 14px;
+    color: #BBBBBB;
+    background-color:  transparent;
+    border: 1px solid #BBBBBB;
+}
+.container .content .display-area .movie-list .movie-list-right .right-top-right .comment-area{
+    width: 360px;
+    height: 80px;
+    position: absolute;
+    top: 130px;
+    background-color: transparent;
+    /*border: 1px solid #BBBBBB;*/
+}
+.container .content .display-area .movie-list .movie-list-right .right-top-right .comment-area .comment-text{
+    width: 250px;
+    height: 75px;
+    color: #BBBBBB;
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid #BBBBBB;
+}
+.container .content .display-area .movie-list .movie-list-right .right-top-right .comment-area .comment-text:hover{
+    border: 1px solid red;
+}
+.container .content .display-area .movie-list .movie-list-right .right-top-right .comment-area .comment-submit{
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 45px;
+    left: 260px;
+    font-size: 13px;
+    color: #BBBBBB;
+    background-color: transparent;
+    border: 1px solid #BBBBBB;
+}
+.container .content .display-area .movie-list .movie-list-right .right-top-right .comment:hover{
+    background-color: red;
+}
+.container .content .display-area .movie-list .movie-list-right .right-bottom{
+    width: 800px;
+    height: 130px;
+    /*border: 2px solid black;*/
+    position: absolute;
+    left: 10px;
+    top: 245px;
+}

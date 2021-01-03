@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 800px;
+    height: 660px;
+    position: relative;
+}
+.container .content{
+    width: 800px;
+    height: 660px;
+    position: relative;
+}
+.container .content>div{
+    margin-top: 20px;
+}
+.container .content>.movie-type{
+    width: 800px;
+    height: 180px;
+    position: relative;
+    border: 2px solid black;
+}
+.container .content>.movie-type>div{
+    display: inline-block;
+}
+.container .content>.movie-type>div li{
+    margin-top: 18px;
+    margin-left: 18px;
+}
+.container .content>.movie-type>div li>.text-area-size{
+    width: 150px;
+    height: 30px;
+}
+.container .content>.movie-type>.movie-type-add{
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    left: 50px;
+    border: 2px solid black;
+}
+.container .content>.movie-type>.movie-type-update{
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    left: 300px;
+    border: 2px solid black;
+}
+.container .content>.movie-type>.movie-type-delete{
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    left: 550px;
+    border: 2px solid black;
+}
+.container .content>.movie-year{
+    width: 800px;
+    height: 180px;
+    /*border: 3px solid black;*/
+}
+.container .content>.movie-nation{
+    width: 800px;
+    height: 180px;
+    /*border: 3px solid black;*/
+}
